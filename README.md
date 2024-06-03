@@ -18,8 +18,11 @@ Esta é uma solução para o [Product preview card component challenge on Fronte
 ### Screenshot
 
 Desktop
+
 ![](./design/solucao-desktop.png)
+
 Mobile
+
 ![](./design/solucao-mobile.png)
 
 ### Links
