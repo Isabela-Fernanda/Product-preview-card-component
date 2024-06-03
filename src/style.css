@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Cream);
+    height: 100vh;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--Very-dark-blue);
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+    width: 34rem;
+    border-radius: 1rem;
+    margin: 2.8rem 1.6rem;
+    border-radius: 1rem;
+}
+
+img{
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.info {
+    margin: 2rem 2.3rem;
+}
+
+.produto, .descricao {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.produto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+h1, span {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 1.3rem 0rem;
+    font-size: 3.2rem;
+    line-height: 3.15rem;
+}
+
+.descricao {
+    margin: 1.6rem 0px;
+    line-height: 2.3rem;
+    word-spacing: 0.2rem;
+}
+
+.preco {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem 0rem; 
+}
+
+.preco p{
+    color: var(--Dark-grayish-blue);
+    padding-left: 2rem;
+    text-decoration: line-through;
+}
+
+.preco span { 
+    color: var(--Dark-cyan);
+    font-size: 3.2rem;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.3rem;
+    margin-bottom: 0.3rem;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    padding: 1.6rem;
+    border-radius: 1rem;
+}
+
+a:hover {
+    background-color: var(--Very-dark-blue);
+}
+
+a span .comprar {
+    font-weight: 700;
+    word-spacing: 0.3rem;  
+}
+
+a img {
+    border-radius: 0rem;
+    margin-right: 1.2rem;
+}

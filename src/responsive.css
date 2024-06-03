@@ -1,0 +1,43 @@
+@media(min-width: 1440px){
+    /* main{
+        height: 100%;
+        justify-content: center;
+    } */
+    article {
+        width: 60rem;
+        height: 45rem;
+        margin: 17.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    picture img {
+        width: 100%;
+        border-radius: 1rem 0rem 0rem 1rem;
+    }
+
+    .info {
+        height: 100%;
+        margin: 0rem;
+        padding: 3.2rem;
+    }
+
+    .info p, h1 {
+        margin-bottom: 2.3rem;
+    }
+
+    .preco{
+        margin-bottom: 2.8rem;
+        align-items: center;
+    }
+
+    .preco p{
+        margin: 0rem;
+    }
+
+    a{
+        margin: 0rem;
+    }
+
+   
+}
