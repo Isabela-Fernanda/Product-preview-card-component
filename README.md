@@ -27,7 +27,7 @@ Mobile
 
 ### Links
 
-- Live Site URL: [Product preview card component]()
+- Live Site URL: [Product preview card component](https://isabela-fernanda.github.io/Product-preview-card-component/)
 
 ## Meu processo
 
